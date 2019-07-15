@@ -1,0 +1,69 @@
+
+html, body {
+    min-height: 100vh;
+    position: relative;
+}
+
+span {
+    cursor: default;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: rgb(133, 0, 93);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid rgb(45, 53, 50);
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+ 
+
+}
+header, footer {
+    background: rgb(255, 255, 255);
+
+}
+
+header > nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > img {
+    cursor: pointer;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#images > img {
+    justify-content: space-between;
+
+    width: calc(100% /2);
+}
+
+footer {
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
